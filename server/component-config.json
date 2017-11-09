@@ -1,0 +1,13 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true
+  },
+  "loopback-component-oauth2": {
+    "dataSource": "mongodb",
+    "loginPage": "/login",
+    "loginPath": "/login",
+    "addHttpHeaders": "X-",
+    "userModel": "Person"
+  }
+}

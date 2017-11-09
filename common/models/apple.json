@@ -1,0 +1,22 @@
+{
+  "name": "Apple",
+  "plural": "apples",
+  "base": "ResourceBase",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

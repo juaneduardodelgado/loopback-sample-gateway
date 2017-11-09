@@ -1,0 +1,25 @@
+{
+  "restApiRoot": "/api",
+  "host": "0.0.0.0",
+  "port": 3101,
+  "remoting": {
+    "context": false,
+    "rest": {
+      "handleErrors": false,
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "100kb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "100kb"
+    },
+    "cors": false
+  },
+  "appId": "a42e212cbe5932dd6e28b3d714d1403e",
+  "adminEmail": "admin@admin.com",
+  "adminPassword": "escandalo"
+}
